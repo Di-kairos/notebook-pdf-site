@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Notebook PDF — Support</title>
+<style>
+  :root { color-scheme: light dark; --fg: #1d1d1f; --muted: #6e6e73; --bg: #fff; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #f5f5f7; --muted: #a1a1a6; --bg: #1c1d20; } }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 32px; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 32px 0 8px; }
+  .muted { color: var(--muted); }
+  a { color: inherit; }
+  ol { padding-left: 1.3em; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Notebook PDF</h1>
+  <p class="muted">Support · Mac</p>
+
+  <p>Notebook PDF turns a Jupyter notebook (.ipynb) into a PDF you can send as is: wide tables stay readable, formulas are typeset, plots stay in place.</p>
+
+  <h2>Make a PDF</h2>
+  <ol>
+    <li>Open a notebook: choose it in the Open window, drag it onto the app, or double-click it in Finder.</li>
+    <li>Pick the layout in the toolbar: Show Code, Title Page, A4 or US Letter. The preview shows the exact PDF.</li>
+    <li>Click Export and choose where to save.</li>
+  </ol>
+
+  <h2>A plot or output is missing</h2>
+  <p>Notebook PDF doesn't run code. It uses the outputs saved in the notebook, so run the notebook and save it before opening it here. Interactive charts are exported as their saved static image; without one, the PDF shows a short note in their place.</p>
+
+  <h2>The file won't open</h2>
+  <p>Notebook PDF reads notebooks in nbformat 4 up to 100 MB. The window says what's wrong with a file it can't read. If a valid notebook fails, write to us and attach it if you can.</p>
+
+  <h2>Refunds</h2>
+  <p>Apple handles purchases and refunds at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:allregdata@proton.me">allregdata@proton.me</a></p>
+
+  <p class="muted"><a href="privacy.html">Privacy Policy</a></p>
+  <p class="muted">Jupyter is a trademark of LF Charities. Notebook PDF is not affiliated with or endorsed by Project Jupyter.</p>
+</main>
+</body>
+</html>
